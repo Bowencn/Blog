@@ -54,7 +54,7 @@ export default{
             position: absolute;
             top: 0.4vh;
             left: 1.6vh;
-            background-color: #fff;
+            background-color: rgb(189, 189, 189);
             border-radius: 45%;
             z-index: -1;
           }
@@ -63,9 +63,13 @@ export default{
             height: 4vh;
             }
           p{
-            color: #fff;
+            color: rgb(189, 189, 189);
             font-size: 14px;
             padding-top: 1vh;
+            &:hover{
+              color: #fff;
+              text-decoration: none;
+            }
           }
         }
       }
